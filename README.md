@@ -1,44 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+🧩 Zync - Full-Stack Discord Clone
+Zync is a full-featured real-time chat application inspired by the original Discord platform. Designed for modern teams, communities, and gamers, Zync replicates many of Discord’s core features including real-time messaging, voice channel simulation (planned), user authentication, dynamic server/channel creation, and more—all with a polished and responsive UI.
 
-## Available Scripts
+Built using a powerful tech stack including React, Next.js, Node.js, MongoDB, and Socket.io, this clone focuses on real-time performance, modular design, and scalability.
 
-In the project directory, you can run:
+🎯 Core Objectives
+Replicate the look and feel of Discord
 
-### `npm start`
+Build a real-time chat experience using modern technologies
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Offer multi-server & multi-channel architecture
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Implement secure user management & presence tracking
 
-### `npm test`
+⚙️ Tech Stack
+Frontend: React.js, Next.js, Tailwind CSS
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Backend: Node.js, Express.js
 
-### `npm run build`
+Database: MongoDB with Mongoose
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Realtime: Socket.io (WebSocket-based)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Authentication: JWT, bcrypt.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+State Management: React Context / Redux (optional)
 
-### `npm run eject`
+Deployment: Vercel (Frontend), Render / Railway / VPS (Backend)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+🚀 Key Features
+🔐 User Auth – Register/Login with JWT & bcrypt security
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+💬 Real-time Messaging – Powered by Socket.io
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+🧪 Live Typing Indicators – See when others are typing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+🧑‍🤝‍🧑 Multi-Server Support – Join or create custom servers
 
-## Learn More
+#️⃣ Dynamic Channels – Add, rename, and delete text channels
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🎨 Responsive UI – Discord-inspired theme built with Tailwind CSS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+✅ Persistent Messages – All chats stored in MongoDB
+
+📱 Fully Responsive – Mobile-friendly design
+
+⚡ Scalable Backend – Designed to handle large user bases
+
+🧩 Pluggable Architecture – Easy to extend and maintain
+
+🛣️ Upcoming Features
+🎙️ Voice channels (WebRTC integration)
+
+🔔 Push notifications
+
+📥 File sharing support
+
+🧑‍🎨 Custom avatars and user profiles
+
+🎭 Role & permission management
+
+📊 Server analytics dashboard
+
+This project is ideal for developers looking to understand full-stack architecture, real-time applications, or just build something awesome that mirrors a production-grade app like Discord.
