@@ -2,8 +2,8 @@ import axios from "axios";
 import { logout } from "./shared/utils/auth";
 
 const apiClient = axios.create({
-  baseURL: "http://localhost:5002/api",
-  timeout: 1000,
+  baseURL: "https://zync-oz9u.onrender.com/api",
+ // timeout: 3000,
 });
 
 apiClient.interceptors.request.use(
