@@ -1,7 +1,7 @@
-🧩 Zync - Full-Stack Discord Clone
+🧩 Zync - 
 Zync is a full-featured real-time chat application inspired by the original Discord platform. Designed for modern teams, communities, and gamers, Zync replicates many of Discord’s core features including real-time messaging, voice channel simulation (planned), user authentication, dynamic server/channel creation, and more—all with a polished and responsive UI.
 
-Built using a powerful tech stack including React, Next.js, Node.js, MongoDB, and Socket.io, this clone focuses on real-time performance, modular design, and scalability.
+Built using a powerful tech stack including React, Node.js, MongoDB, and Socket.io, this clone focuses on real-time performance, modular design, and scalability.
 
 🎯 Core Objectives
 Replicate the look and feel of Discord
@@ -11,9 +11,10 @@ Build a real-time chat experience using modern technologies
 Offer multi-server & multi-channel architecture
 
 Implement secure user management & presence tracking
+Url : https://zync-connect.netlify.app/login
 
 ⚙️ Tech Stack
-Frontend: React.js, Next.js, Tailwind CSS
+Frontend: React.js, Material UI,Redux
 
 Backend: Node.js, Express.js
 
@@ -23,9 +24,9 @@ Realtime: Socket.io (WebSocket-based)
 
 Authentication: JWT, bcrypt.js
 
-State Management: React Context / Redux (optional)
+State Management: React Context / Redux 
 
-Deployment: Vercel (Frontend), Render / Railway / VPS (Backend)
+Deployment: netlify (Frontend), Render  (Backend)
 
 🚀 Key Features
 🔐 User Auth – Register/Login with JWT & bcrypt security
