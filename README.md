@@ -11,6 +11,8 @@ Build a real-time chat experience using modern technologies
 Offer multi-server & multi-channel architecture
 
 
+Live Url: https://zync-connect.netlify.app/dashboard
+
 
 ⚙️ Tech Stack
 Frontend: React.js, Material UI,Redux
