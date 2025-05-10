@@ -10,8 +10,7 @@ Build a real-time chat experience using modern technologies
 
 Offer multi-server & multi-channel architecture
 
-Implement secure user management & presence tracking
-Url : https://zync-connect.netlify.app/login
+
 
 ⚙️ Tech Stack
 Frontend: React.js, Material UI,Redux
